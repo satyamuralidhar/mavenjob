@@ -8,7 +8,7 @@ pipeline {
             }
             stage("code checkout") {
                 steps {
-                    git branch: 'master', url: 'https://github.com/satyamuralidhar/mavenjob.git'
+                    git branch: 'main', url: 'https://github.com/satyamuralidhar/mavenjob.git'
                 }
             }
             stage("Unit Test") {
